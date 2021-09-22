@@ -2,7 +2,7 @@ class Bug
   def foo
     values = ["one", "two"]
 
-    # values << "four" if true
+    values << "four" if true
 
     {
       "one" => "#{_bar("yo")} stuff",
