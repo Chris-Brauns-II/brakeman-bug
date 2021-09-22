@@ -5,7 +5,7 @@ class Bug
     values << "four" if true
 
     {
-      "one" => "#{_bar("yo")} stuff",
+      "one" => 1,
       "two" => 2
     }.values_at(*values).join(" and ")
   end
